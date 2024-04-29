@@ -57,7 +57,7 @@ document.write('<h1>','The weight of user is:',weight,'</h1>')
 let computer = Math.round(Math.random()*11)
 let userGuess = parseInt(prompt('Enter a number between 1-10'))
 if(computer == userGuess){
-  document.write('<h1>','Congrats You Win','</h1>')
+  document.write('Congrats You Win')
 }
 else{
   alert('You lose')
