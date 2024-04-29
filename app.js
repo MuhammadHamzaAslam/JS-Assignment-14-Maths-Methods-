@@ -60,5 +60,5 @@ if(computer == userGuess){
   document.write('<h1>','Congrats You Win','</h1>')
 }
 else{
-  alert('<h1>','You lose','</h1>')
+  alert('You lose')
 }
